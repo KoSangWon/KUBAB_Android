@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFFFFF"
+        android:divider="#000000"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/dateNow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/listView"
+        android:layout_marginBottom="-70dp"
+        android:background="#E6E9EC"
+        android:fontFamily="@font/apple"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="식당 &amp; 앱 정보"
+        android:textColor="#036B3F"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

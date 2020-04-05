@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!--<TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#000000"
+        android:fontFamily="@font/banhana"
+        android:textStyle="bold"/>-->
+
+    <TextView
+        android:id="@+id/restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:textColor="#2196F3"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/termtime_saletime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/vacation_saletime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:textColor="#000000"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/apple"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="2dip"
+        android:textColor="#FF5722"
+        android:textSize="17dp" />
+
+</LinearLayout>
