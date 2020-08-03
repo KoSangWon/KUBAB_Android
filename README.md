@@ -4,5 +4,7 @@
 ## 기술스택
 
 프론트: Android(Java)
+
 백: AWS(EC2, RDS), PHP, MySQL
+
 크롤링: Python(Beautifulsoup)
